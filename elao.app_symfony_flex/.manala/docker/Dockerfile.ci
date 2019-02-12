@@ -62,4 +62,5 @@ RUN echo "deb https://deb.nodesource.com/node_10.x stretch main" > /etc/apt/sour
 
 WORKDIR /srv
 
-#USER app
+USER app
+
